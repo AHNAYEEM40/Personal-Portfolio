@@ -594,6 +594,7 @@
                   <div class="form-group">
                     <input
                       type="text"
+                      name="name"
                       class="form-control"
                       placeholder="Name"
                     />
@@ -604,6 +605,7 @@
                   <div class="form-group">
                     <input
                       type="email"
+                      name="email"
                       class="form-control"
                       placeholder="Email"
                     />
@@ -616,6 +618,7 @@
                   <div class="form-group">
                     <input
                       type="text"
+                      name="subject"
                       class="form-control"
                       placeholder="Subject"
                     />
@@ -627,7 +630,7 @@
                 <div class="form-item col-12 padd-15">
                   <div class="form-group">
                     <textarea
-                      name=""
+                      name="massage"
                       id=""
                       class="form-control"
                       placeholder="Message"
@@ -639,8 +642,8 @@
               <div class="row">
                 <div class="form-item col-12 padd-15">
                   <div class="form-group">
-                    <form action="http://www.example.com/login.php">
-                      <input type="submit" class="btn" value="Send Message" />
+                    <form action="https://formspree.io/f/mdknqyvo" method="post">
+                      <input type="submit" class="btn" name="massage" value="Send Message" />
                     </form>
                   </div>
                 </div>
